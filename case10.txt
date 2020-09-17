@@ -1,0 +1,11 @@
+CREATE TABLE  jabatan_user (
+    CREATE masa_jabatan varchar(255)
+)
+
+SELECT user.id,
+profile.nama,
+jabatan_user.masa_jabatan FROM jabatan_user
+INNER JOIN jabatan_user;
+
+
+SELECT * FROM jabatan_user;
